@@ -1,0 +1,7 @@
+source :rubygems
+
+gem 'capybara'
+gem 'faker'
+gem 'rake'
+gem 'launchy'
+gem 'rspec'
