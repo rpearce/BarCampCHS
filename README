@@ -1,0 +1,34 @@
+=====
+Links
+=====
+
+Getting Set Up:
+  Text Editors:
+    TextMate, Sublime 2, Vim, Emacs
+  Git:
+    https://www.github.com
+  All kinds of stuff:
+    https://gist.github.com/606115 - Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick
+
+Testing:
+  Capybara
+    https://github.com/jnicklas/capybara
+  Cucumber
+    http://cukes.info/
+    http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email
+
+Design Tools:
+  http://twitter.github.com/bootstrap/
+  http://www.getskeleton.com/
+  http://hex2rgba.devoth.com/
+  http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC
+
+In-Browser coding
+  http://tryruby.org/levels/1/challenges/0
+  http://www.codeschool.com/
+
+Videos, Tutorials && Resources:
+  http://railscasts.com/
+  http://peepcode.com/
+  http://www.codeschool.com
+  http://ruby4kids.com/ruby4kids
