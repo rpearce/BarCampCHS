@@ -45,8 +45,8 @@
     <div class="topbar-inner">
       <div class="container">
         <a class="brand" href="#">Robert Pearce</a>
-        <ul>
-          <li><a href="#getting-started">Getting Started</a></li>
+        <ul class="main-nav nav-list">
+          <li><a href="#getting-started" class="active">Getting Started</a></li>
           <li><a href="#testing">Testing</a></li>
           <li><a href="#design-tools">Design Tools</a></li>
           <li><a href="#getting-started">In-browser Coding</a></li>
@@ -66,19 +66,11 @@
   ================================================== -->
 
   <div class="container">
-    <!-- <nav class="sixteen columns">
-      <ul class="tabs nav-list">
-        <li class="left offset-first-nav"><a href="#home" class="home active">Home</a></li>
-        <li class="left offset-by-one"><a href="#resources" class="resources">Resources</a></li>
-      </ul>
-    </nav>
-    <div class="clear"></div> -->
-
     <ul class="tabs-content">
-      <!-- HOME
+      <!-- Getting Started
       ====================== -->
-      <li class="active" id="home">
-        <header id="getting-started" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+      <li class="active" id="getting-started">
+        <header id="getting-started-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
           <h1 style="display:inline;">Getting Started</h1> <h3 style="display:inline">everybody's gotta start someplace</h3>
         </header>
         <section class="one-third column">
@@ -105,36 +97,34 @@
         <div class="clear"></div>
       </li>
 
-      <!-- Donate
+      <!-- Testing
       ====================== -->
-      <li id="donate">
-        <section class="two-thirds column">
-          <h2 class="">Your Donation Counts</h2>
-          <p>Charleston Volunteers for Literacy hires reading teachers to write lesson plans for students and to train and guide tutors. We purchase books and materials for lessons and extra books for students to read and keep in their homes.</p>
-          <p>Here's how your donation counts:</p>
-          <ul class="square">
-            <li>$25&nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;Tutoring supplies for one child - letters, pencils, word cards</li>
-            <li>$100&nbsp;&nbsp; = &nbsp;25 tutoring books that can be used for 10 years</li>
-            <li>$200&nbsp;&nbsp; = &nbsp;Testing materials for diagnosing reading needs at 1 school</li>
-            <li>$500&nbsp;&nbsp; = &nbsp;Sponsors a student</li>
-            <li><strong>1 hour per week</strong>&nbsp; = &nbsp;an opportunity to <strong>change a child's life</strong></li>
-          </ul>
+      <li id="testing" style="display:none">
+        <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline;">Testing</h1> <h3 style="display:inline">'cause nobody's code is <em>that</em> good</h3>
+        </header>
+        <section class="one-third column">
+          <h4>Which Text Editor?</h4>
+          <p class="subheader">Good code always starts with the editor that works best for you:</p>
+            <ul class="square">
+              <li><a href="http://macromates.com/">TextMate</a></li>
+              <li><a href="http://www.sublimetext.com/blog/articles/sublime-text-2-beta">Sublime Text 2</a></li>
+              <li><a href="https://github.com/calstad/emacs-starter-kit">Emacs*</a></li>
+              <li><a href="http://linuxconfig.org/Vim_Tutorial">Vim</a></li>
+            </ul>
+            <em>* I recommend Colin Alstad's fork of the Emacs Starter Kit</em>
         </section>
         <section class="one-third column">
-          <h2 class="pastelCrayon-first">Donate Today</h2>
-          <p>Make your donations to:</p>
-            <ul style="list-style-type:none;">
-              <li>Coastal Community Foundation</li>
-              <li>Designation: Charleston Volunteers for Literacy</li>
-              <li>635 Rutledge Avenue, Suite 201</li>
-              <li>Charleston, SC 29403</li>
-            </ul>
+          <h4>GitHub</h4>
+          <p class="subheader">Git is a coder's best friend. On second thought, it's more like your best friend who is also your DD; no explanation needed here.</p>
+          <p><a href="https://www.github.com">Click here to check out GitHub.</a></p>
+        </section>
+        <section class="one-third column">
+          <h4>Misc</h4>
+          <p class="subheader">There are infinite tools needed -- here's a way to knock out a few.</p>
+          <p><a href="https://gist.github.com/606115">Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick</a></p>
         </section>
         <div class="clear"></div>
-        <br />
-        <section id="make-difference">
-          <p class="pastelCrayon-bottom no-underline">You <span style="text-decoration: underline">can</span> make a difference.</p>
-        </section>
       </li>
 
     </ul>

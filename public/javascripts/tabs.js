@@ -13,7 +13,7 @@ $(document).ready(function() {
 	/* Tabs Activiation
 	================================================== */
 
-	var tabs = $('ul.tabs');
+	var tabs = $('ul.main-nav');
 
 	tabs.each(function(i) {
 

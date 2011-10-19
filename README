@@ -16,6 +16,9 @@ Testing:
   Cucumber
     http://cukes.info/
     http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email
+  RSpec
+    http://ruby.railstutorial.org/chapters/static-pages#top
+    http://rubydoc.info/gems/rspec-rails/frames
 
 Design Tools:
   http://twitter.github.com/bootstrap/
@@ -23,12 +26,22 @@ Design Tools:
   http://hex2rgba.devoth.com/
   http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC
 
-In-Browser coding
-  http://tryruby.org/levels/1/challenges/0
-  http://www.codeschool.com/
+In-Browser coding:
+  CoderDeck
+    http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0
+  TryRuby
+    http://tryruby.org/levels/1/challenges/0
+  CodeSchool
+    http://www.codeschool.com/
 
-Videos, Tutorials && Resources:
+Screencasts, Tutorials && Resources:
+  http://teachmetocode.com/screencasts/
   http://railscasts.com/
   http://peepcode.com/
   http://www.codeschool.com
   http://ruby4kids.com/ruby4kids
+
+Paths to Enlightenment:
+  Ruby Koans
+
+  CoffeeScript Koans
