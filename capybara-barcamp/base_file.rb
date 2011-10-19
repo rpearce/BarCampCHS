@@ -4,4 +4,4 @@ require 'test/unit'
 require 'faker'
 require 'rspec/expectations'
 
-require 'find_morpheus'
+require 'find_morpheus_test'

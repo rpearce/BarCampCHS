@@ -1,4 +1,4 @@
-class FindMorpheus < Test::Unit::TestCase
+class FindMorpheusTest < Test::Unit::TestCase
   Capybara.run_server = false
   Capybara.app_host = 'http://www.google.com'
   Capybara.current_driver = :selenium
