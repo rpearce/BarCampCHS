@@ -53,6 +53,19 @@
 ===================================================*/
 
   .topbar {
+    background-color: #00789c;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#00789c), to(#00A0D1));
+    background-image: -moz-linear-gradient(top, #00789c, #00A0D1);
+    background-image: -ms-linear-gradient(top, #00789c, #00A0D1);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00789c), color-stop(100%, #00A0D1));
+    background-image: -webkit-linear-gradient(top, #00789c, #00A0D1);
+    background-image: -o-linear-gradient(top, #00789c, #00A0D1);
+    background-image: linear-gradient(top, #00789c, #00A0D1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00789c', endColorstr='#00A0D1', GradientType=0);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
     height: 37px;
     position: fixed;
     top: 0;
@@ -62,28 +75,11 @@
     overflow: visible;
     overflow-x: visible;
     overflow-y: visible;
-    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 -1px 0 rgba(0,0,0,0.1) inset;
   }
 
-  .topbar-inner, .topbar .fill {
-    background-color: #00789c;
-    background-repeat: repeat-x;
-    background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
-    background-image: -moz-linear-gradient(top, #00789c, #00A0D1);
-    background-image: -ms-linear-gradient(top, #00789c, #00A0D1);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00789c), color-stop(100%, #00A0D1));
-    background-image: -webkit-linear-gradient(top, #00789c, #00A0D1);
-    background-image: -o-linear-gradient(top, #00789c, #00A0D1);
-    background-image: linear-gradient(top, #00789c, #00A0D1);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  }
+  .topbar-inner, .topbar .fill { }
 
-  .topbar .topbar-inner .container {
+  .topbar .topbar-inner .topbar-container {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -130,23 +126,29 @@
     color: #fff;
   }
 
+
+
 /* #Basic Styles
 ================================================== */
   body {
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #404040;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
-    -webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    -moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   }
 
-  .logo-container { background: url('../images/barcamp-bg.png'); top: 36px; }
+  .logo-container {
+    background: url('../images/barcamp-bg.png');
+    top: 36px;
+  }
 
   .logo {
     margin-top: 36px;
     text-align: center;
+    -moz-box-shadow: 0 -1px 2px rgba(0,0,0,0.25) inset;
+    -webkit-box-shadow: 0 -1px 2px rgba(0,0,0,0.25) inset;
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.25) inset;
   }
 
 /*  .nav-list { margin-top: 20px; }*/
@@ -161,17 +163,17 @@
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; }
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; color: #BFBFBF; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #777; }
 
 	p { margin: 0 0 10px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+	p.lead { font-size: 21px; line-height: 27px; color: #777; }
+  p.beneath-header { margin-top: -10px; color: #BFBFBF; text-decoration: none; }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
@@ -348,7 +350,7 @@
 		-webkit-border-top-right-radius: 2px;
 		border-top-right-radius: 2px; }
 
-	ul.tabs-content { margin: 0; display: block; }
+	ul.tabs-content { margin: 25px 0 0 0; display: block; }
 	ul.tabs-content > li { display:none; }
 	ul.tabs-content > li.active { display: block; }
 

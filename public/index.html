@@ -43,10 +43,10 @@
 <body>
   <div class="topbar">
     <div class="topbar-inner">
-      <div class="container">
+      <div class="topbar-container">
         <a class="brand" href="#">Robert Pearce</a>
         <ul class="main-nav nav-list">
-          <li><a href="#getting-started" class="active">Getting Started</a></li>
+          <li><a href="#getting-started" class="active">On Your Feet!</a></li>
           <li><a href="#testing">Testing</a></li>
           <li><a href="#design-tools">Design Tools</a></li>
           <li><a href="#getting-started">In-browser Coding</a></li>
@@ -67,31 +67,32 @@
 
   <div class="container">
     <ul class="tabs-content">
+
       <!-- Getting Started
       ====================== -->
       <li class="active" id="getting-started">
         <header id="getting-started-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
-          <h1 style="display:inline;">Getting Started</h1> <h3 style="display:inline">everybody's gotta start someplace</h3>
+          <h1 style="display:inline">On Your Feet!</h1> <h3 style="display:inline">everybody's gotta start someplace</h3>
         </header>
         <section class="one-third column">
           <h4>Which Text Editor?</h4>
-          <p class="subheader">Good code always starts with the editor that works best for you:</p>
-            <ul class="square">
-              <li><a href="http://macromates.com/">TextMate</a></li>
-              <li><a href="http://www.sublimetext.com/blog/articles/sublime-text-2-beta">Sublime Text 2</a></li>
-              <li><a href="https://github.com/calstad/emacs-starter-kit">Emacs*</a></li>
-              <li><a href="http://linuxconfig.org/Vim_Tutorial">Vim</a></li>
-            </ul>
-            <em>* I recommend Colin Alstad's fork of the Emacs Starter Kit</em>
+          <p>Good code always starts with the editor that works best for you:</p>
+          <ul class="square">
+            <li><a href="http://macromates.com/">TextMate</a></li>
+            <li><a href="http://www.sublimetext.com/blog/articles/sublime-text-2-beta">Sublime Text 2</a></li>
+            <li><a href="https://github.com/calstad/emacs-starter-kit">Emacs*</a></li>
+            <li><a href="http://linuxconfig.org/Vim_Tutorial">Vim</a></li>
+          </ul>
+          <p><em>* I recommend Colin Alstad's fork of the Emacs Starter Kit</em></p>
         </section>
         <section class="one-third column">
           <h4>GitHub</h4>
-          <p class="subheader">Git is a coder's best friend. On second thought, it's more like your best friend who is also your DD; no explanation needed here.</p>
-          <p><a href="https://www.github.com">Click here to check out GitHub.</a></p>
+          <p>Git is a coder's best friend. On second thought, it's more like your best friend who is also your DD; no explanation provided here.</p>
+          <p><a href="https://www.github.com">Click here</a> to check out GitHub.</p>
         </section>
         <section class="one-third column">
           <h4>Misc</h4>
-          <p class="subheader">There are infinite tools needed -- here's a way to knock out a few.</p>
+          <p>There are infinite tools needed -- here's a way to knock out a few.</p>
           <p><a href="https://gist.github.com/606115">Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick</a></p>
         </section>
         <div class="clear"></div>
@@ -101,28 +102,35 @@
       ====================== -->
       <li id="testing" style="display:none">
         <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
-          <h1 style="display:inline;">Testing</h1> <h3 style="display:inline">'cause nobody's code is <em>that</em> good</h3>
+          <h1 style="display:inline">Testing</h1> <h3 style="display:inline">'cause nobody's code is <em>that</em> good</h3>
         </header>
         <section class="one-third column">
-          <h4>Which Text Editor?</h4>
-          <p class="subheader">Good code always starts with the editor that works best for you:</p>
-            <ul class="square">
-              <li><a href="http://macromates.com/">TextMate</a></li>
-              <li><a href="http://www.sublimetext.com/blog/articles/sublime-text-2-beta">Sublime Text 2</a></li>
-              <li><a href="https://github.com/calstad/emacs-starter-kit">Emacs*</a></li>
-              <li><a href="http://linuxconfig.org/Vim_Tutorial">Vim</a></li>
-            </ul>
-            <em>* I recommend Colin Alstad's fork of the Emacs Starter Kit</em>
+          <header>
+            <h4>Capybara</h4>
+            <p class="beneath-header">https://github.com/jnicklas/capybara</p>
+          </header>
+          <p>First off, this is great way to get the feel of coding if you're not familiar with it.</p>
+          <p>Mostly used for integration testing (making sure all your separate modules works together), but does not have to be limited to your application.</p>
+          <p>For example (don't try this at home):</p>
+          <ul class="square">
+            <li>don't trust your wife to purchase your plane ticket online for you? (run test)</li>
+            <li>want to search for Morpheus just like Neo does in the Matrix? (run test)</li>
+          </ul>
+          <p></p>
         </section>
         <section class="one-third column">
-          <h4>GitHub</h4>
-          <p class="subheader">Git is a coder's best friend. On second thought, it's more like your best friend who is also your DD; no explanation needed here.</p>
-          <p><a href="https://www.github.com">Click here to check out GitHub.</a></p>
+          <header>
+            <h4>Cucumber</h4>
+            <p class="beneath-header">http://cukes.info/</p>
+          <header>
+          <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber refines this practice and tests your code from a UI perspective.</p>
+          <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
         </section>
         <section class="one-third column">
-          <h4>Misc</h4>
-          <p class="subheader">There are infinite tools needed -- here's a way to knock out a few.</p>
-          <p><a href="https://gist.github.com/606115">Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick</a></p>
+          <header>
+            <h4>RSpec</h4>
+            <p class="beneath-header">http://rspec.info/</p>
+          </header>
         </section>
         <div class="clear"></div>
       </li>
