@@ -6,7 +6,14 @@ http://railsneedtoknow.heroku.com/index.html
 
 Getting Set Up:
   Text Editors:
-    TextMate, Sublime 2, Emacs, Vim
+    TextMate
+      http://macromates.com/
+    Sublime 2
+      http://www.sublimetext.com/blog/articles/sublime-text-2-beta
+    Emacs
+      https://github.com/calstad/emacs-starter-kit
+    Vim
+      http://linuxconfig.org/Vim_Tutorial
   Git:
     https://www.github.com
   All kinds of stuff:
@@ -29,21 +36,41 @@ Design Tools:
   http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC
 
 In-Browser coding:
-  CoderDeck
-    http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0
   TryRuby
     http://tryruby.org/levels/1/challenges/0
   CodeSchool
     http://www.codeschool.com/
+  CoderDeck (Plugin)
+    http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0
+
+Need to Know Languages/Tools:
+  Ruby
+  HTML/HAML
+    http://haml-lang.com/
+    http://html2haml.heroku.com/
+  CSS/SASS
+    http://sass-lang.com/
+    http://css2sass.heroku.com/
+  JQuery + JavaScript/CoffeeScript
+    http://www.howtocreate.co.uk/tutorials/javascript/introduction
+    http://jashkenas.github.com/coffee-script/
 
 Screencasts, Tutorials && Resources:
   http://teachmetocode.com/screencasts/
   http://railscasts.com/
-  http://peepcode.com/
-  http://www.codeschool.com
+  http://peepcode.com/ (not free)
+  http://www.codeschool.com (mostly not free)
   http://ruby4kids.com/ruby4kids
+  http://www.tlbox.com/
 
 Paths to Enlightenment:
   Ruby Koans
-
+    http://rubykoans.com/
   CoffeeScript Koans
+    https://github.com/sleepyfox/coffeescript-koans
+
+===============
+Personal Thanks
+===============
+Nick Bucciarelli
+Tom Wilson
