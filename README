@@ -54,6 +54,12 @@ Need to Know Languages/Tools:
   JQuery + JavaScript/CoffeeScript
     http://www.howtocreate.co.uk/tutorials/javascript/introduction
     http://jashkenas.github.com/coffee-script/
+  (Zen Learning Below)
+  Paths to Enlightenment:
+    Ruby Koans
+      http://rubykoans.com/
+    CoffeeScript Koans
+      https://github.com/sleepyfox/coffeescript-koans
 
 Screencasts, Tutorials && Resources:
   http://teachmetocode.com/screencasts/
@@ -63,14 +69,9 @@ Screencasts, Tutorials && Resources:
   http://ruby4kids.com/ruby4kids
   http://www.tlbox.com/
 
-Paths to Enlightenment:
-  Ruby Koans
-    http://rubykoans.com/
-  CoffeeScript Koans
-    https://github.com/sleepyfox/coffeescript-koans
-
 ===============
 Personal Thanks
 ===============
 Nick Bucciarelli
-Tom Wilson
+Tom Wilson && Everybody at JRS
+BarCampCHS
