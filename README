@@ -14,9 +14,12 @@ Getting Set Up:
       https://github.com/calstad/emacs-starter-kit
     Vim
       http://linuxconfig.org/Vim_Tutorial
+    E-Text Editor(Windows)
+      http://www.e-texteditor.com/
   Git:
     https://www.github.com
-  All kinds of stuff:
+  Setting up your box:
+    http://www.jamesjohnson.me/ - Great walkthrough for getting your system ready to rock.
     https://gist.github.com/606115 - Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick
 
 Testing:
@@ -38,6 +41,8 @@ Design Tools:
 In-Browser coding:
   TryRuby
     http://tryruby.org/levels/1/challenges/0
+  CodeMonk
+    http://rubymonk.com/
   CodeSchool
     http://www.codeschool.com/
   CoderDeck (Plugin)
@@ -72,6 +77,7 @@ Screencasts, Tutorials && Resources:
 ===============
 Personal Thanks
 ===============
-Nick Bucciarelli
-Tom Wilson && Everybody at JRS
 BarCampCHS
+Nick Bucciarelli
+Matthew Scott
+Tom Wilson && Everybody at JRS
