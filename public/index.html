@@ -48,7 +48,7 @@
         <ul class="main-nav nav-list">
           <li><a href="#getting-started" class="active">On Your Feet!</a></li>
           <li><a href="#testing">Testing</a></li>
-          <li><a href="#design-tools">Design Tools</a></li>
+          <li><a href="#making-stuff-pretty">Making Stuff Pretty</a></li>
           <li><a href="#need-to-know">Need to Know</a></li>
           <li><a href="#in-browser-coding">In-browser Coding</a></li>
           <li><a href="#videos-and-tuts">Videos and Tuts</a></li>
@@ -112,6 +112,27 @@
         <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
           <h1 style="display:inline">Testing</h1> <h3 style="display:inline">'cause nobody's code is <em>that</em> good</h3>
         </header>
+        <section class="two-third column">
+          <header>
+            <h4>What is TDD?</h4>
+            <p class="beneath-header">Test Driven Development</p>
+          </header>
+          <p>The theory behind test driven development (a subset of behavior driven development [BDD]) is that if you plan and write comprehensive tests for your application, watch them fail, write code that satisfies the tests, and then refactor the written code, then you will be more productive, your app will be tested, and you will be a happy developer.</p>
+        </section>
+
+        <div class="clear"></div>
+        <section class="two-thirds column">
+          <header>
+            <h4>Cucumber</h4>
+            <p class="beneath-header">http://cukes.info/</p>
+          <header>
+          <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber--being a form of integration testing--refines this practice and tests your code from a UI perspective.</p>
+          <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
+          <p>
+            <h6>For Example:</h6>
+            <script src="https://gist.github.com/1303006.js?file=Harness%20Lightning"></script>
+          </p>
+        </section>
         <section class="one-third column">
           <header>
             <h4>Capybara</h4>
@@ -133,27 +154,76 @@
           <br />
           <p><a href="https://github.com/rpearce/BarCampCHS/tree/master/capybara-barcamp">Click here</a> for the GitHub repo.</p>
         </section>
-        <section class="one-third column">
-          <header>
-            <h4>Cucumber</h4>
-            <p class="beneath-header">http://cukes.info/</p>
-          <header>
-          <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber refines this practice and tests your code from a UI perspective.</p>
-          <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
-          <p>
-            <h6>Example</h6>
-            <br />
-
-          </p>
-
-        </section>
+        <div class="clear"></div>
         <section class="one-third column">
           <header>
             <h4>RSpec</h4>
             <p class="beneath-header">http://rspec.info/</p>
+            <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
+            <ul class="square">
+              <li><a href="http://www.ibm.com/developerworks/web/library/wa-rspec/">Behavior-driven testing with RSpec</a></li>
+              <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">Ruby on Rails 3 Testing with RSpec 2</a></li>
+            </ul>
           </header>
         </section>
+      </li>
+
+      <!-- Making Stuff Pretty
+      ====================== -->
+      <li id="making-stuff-pretty" style="display:none">
+        <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">Making Stuffy Pretty</h1> <h3 style="display:inline">designing doesn't have to suck</h3>
+        </header>
+        <section class="two-third column">
+          <p>If you don't already know, designing the layout, bells, and whistles for your app can be more time consuming and frustrating than all of the rest of the app development combined. Nevertheless, <strong>your design is as important to your app's vitality as salmon and hikers are to grizzly bears</strong>.</p>
+        </section>
+
         <div class="clear"></div>
+        <section class="two-thirds column">
+          <header>
+            <h4>Cucumber</h4>
+            <p class="beneath-header">http://cukes.info/</p>
+          <header>
+          <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber--being a form of integration testing--refines this practice and tests your code from a UI perspective.</p>
+          <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
+          <p>
+            <h6>For Example:</h6>
+            <script src="https://gist.github.com/1303006.js?file=Harness%20Lightning"></script>
+          </p>
+        </section>
+        <section class="one-third column">
+          <header>
+            <h4>Capybara</h4>
+            <p class="beneath-header">https://github.com/jnicklas/capybara</p>
+          </header>
+          <p>First off, this, coupled with the Selenium webdriver, is great way to get the feel of coding if you're not familiar with it. It is mostly used for integration testing (making sure all your separate modules work together), though running a standalone version of Capybara which does not depend upon a framework like Ruby on Rails is a great way to get associated with these 3 things:</p>
+          <ul class="square">
+            <li>Ruby syntax</li>
+            <li>How/What to test</li>
+            <li>JQuery</li>
+          </ul>
+          <br />
+          <p><strong>If you're feeling a little crazy</strong>, Capybara does not have to be limited to testing your application:</p>
+          <p>For example (don't try this at home):</p>
+          <ul class="square">
+            <li>don't trust your wife to purchase your plane ticket online for you? (run test)</li>
+            <li>want to search for Morpheus just like Neo does in the Matrix? (run test)</li>
+          </ul>
+          <br />
+          <p><a href="https://github.com/rpearce/BarCampCHS/tree/master/capybara-barcamp">Click here</a> for the GitHub repo.</p>
+        </section>
+        <div class="clear"></div>
+        <section class="one-third column">
+          <header>
+            <h4>RSpec</h4>
+            <p class="beneath-header">http://rspec.info/</p>
+            <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
+            <ul class="square">
+              <li><a href="http://www.ibm.com/developerworks/web/library/wa-rspec/">Behavior-driven testing with RSpec</a></li>
+              <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">Ruby on Rails 3 Testing with RSpec 2</a></li>
+            </ul>
+          </header>
+        </section>
       </li>
 
     </ul>

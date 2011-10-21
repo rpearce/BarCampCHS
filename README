@@ -29,8 +29,9 @@ Testing:
     http://cukes.info/
     http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email
   RSpec
-    http://ruby.railstutorial.org/chapters/static-pages#top
-    http://rubydoc.info/gems/rspec-rails/frames
+    https://www.relishapp.com/rspec/docs/gettingstarted
+    http://jonathanhui.com/ruby-rails-3-testing-rspec-2
+
 
 Design Tools:
   http://twitter.github.com/bootstrap/
