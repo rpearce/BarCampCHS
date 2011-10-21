@@ -41,7 +41,7 @@ Design Tools:
 
 In-Browser coding:
   TryRuby
-    http://tryruby.org/levels/1/challenges/0
+    http://tryruby.org/
   CodeMonk
     http://rubymonk.com/
   CodeSchool
@@ -51,10 +51,11 @@ In-Browser coding:
 
 Need to Know Languages/Tools:
   Ruby
-  HTML/HAML
+  HTML/CSS
+    http://htmldog.com/
+  HAML/SASS
     http://haml-lang.com/
     http://html2haml.heroku.com/
-  CSS/SASS
     http://sass-lang.com/
     http://css2sass.heroku.com/
   JQuery + JavaScript/CoffeeScript
