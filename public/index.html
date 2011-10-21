@@ -112,7 +112,7 @@
         <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
           <h1 style="display:inline">Testing</h1> <h3 style="display:inline">'cause nobody's code is <em>that</em> good</h3>
         </header>
-        <section class="two-third column">
+        <section class="sixteen columns">
           <header>
             <h4>What is TDD?</h4>
             <p class="beneath-header">Test Driven Development</p>
@@ -124,7 +124,7 @@
         <section class="two-thirds column">
           <header>
             <h4>Cucumber</h4>
-            <p class="beneath-header">http://cukes.info/</p>
+            <p class="beneath-header">http://cukes.info</p>
           <header>
           <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber--being a form of integration testing--refines this practice and tests your code from a UI perspective.</p>
           <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
@@ -158,13 +158,13 @@
         <section class="one-third column">
           <header>
             <h4>RSpec</h4>
-            <p class="beneath-header">http://rspec.info/</p>
-            <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
-            <ul class="square">
-              <li><a href="http://www.ibm.com/developerworks/web/library/wa-rspec/">Behavior-driven testing with RSpec</a></li>
-              <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">Ruby on Rails 3 Testing with RSpec 2</a></li>
-            </ul>
+            <p class="beneath-header">http://rspec.info</p>
           </header>
+          <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
+          <ul class="square">
+            <li><a href="http://www.ibm.com/developerworks/web/library/wa-rspec/">Behavior-driven testing with RSpec</a></li>
+            <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">Ruby on Rails 3 Testing with RSpec 2</a></li>
+          </ul>
         </section>
       </li>
 
@@ -172,29 +172,35 @@
       ====================== -->
       <li id="making-stuff-pretty" style="display:none">
         <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
-          <h1 style="display:inline">Making Stuffy Pretty</h1> <h3 style="display:inline">designing doesn't have to suck</h3>
+          <h1 style="display:inline">Making Stuff Pretty</h1> <h3 style="display:inline">designing doesn't have to suck</h3>
         </header>
-        <section class="two-third column">
-          <p>If you don't already know, designing the layout, bells, and whistles for your app can be more time consuming and frustrating than all of the rest of the app development combined. Nevertheless, <strong>your design is as important to your app's vitality as salmon and hikers are to grizzly bears</strong>.</p>
+        <section class="sixteen columns">
+          <p>If you don't already know, designing the layout and CSS bells and whistles for your app can be more time consuming and frustrating than all of the rest of the app development combined. Nevertheless, <strong>your design is as important to your app's vitality as salmon and hikers are to grizzly bears</strong>. When a potential new client or user visits your site, if you've designed it to look like your toothless feral cousin who your extended family hides in the attic, what's to prevent these clients from thinking that the rest of your code is just as frightening? They need to trust your app from the start, and this is done by taking the time to make it aesthetically appealing.</p>
         </section>
-
         <div class="clear"></div>
-        <section class="two-thirds column">
+        <section class="sixteen columns">
           <header>
-            <h4>Cucumber</h4>
-            <p class="beneath-header">http://cukes.info/</p>
+            <h4>HTML &amp; CSS</h4>
+            <p class="beneath-header">http://htmldog.com</p>
           <header>
-          <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber--being a form of integration testing--refines this practice and tests your code from a UI perspective.</p>
-          <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
+          <p>In short, you will have to be able to structure elements and style them, no matter what sort of development/web-based job you have. Forget Dreamweaver and other drag and drop web design tools--you will not learn what you need to learn. Many tutorials would have beginners start from scratch, but I take a different approach: throw yourself in to boilerplate code, make changes, and see what happens.</p>
+          <p>A few useful tools for beginners (assuming you understand a little syntax) and professionals alike are:</p>
+          <ul class="square">
+            <li>Twitter's <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></li>
+            <li><a href="http://www.getskeleton.com">Skeleton</a></li>
+          </ul>
+          <p>(This site is actually a conglomeration of styles from each of these.)</p>
           <p>
-            <h6>For Example:</h6>
-            <script src="https://gist.github.com/1303006.js?file=Harness%20Lightning"></script>
+            What is so great about Bootstrap and Skeleton from a professional standpoint is that they remove the pain of having to create an enormous CSS style from scratch, allowing you to alter the CSS provided to fit your needs. From a beginner standpoint, they show you the way HTML elements should be organized and the way CSS should be utilized. They also give you the satisfaction of seeing some pretty page elements and the ability to play with them without going through the terrible pains of creation at such an early stage.
+            <br />
+            <strong>TL;DR jumping in and pushing buttons is a good way to learn</strong>.
           </p>
+          <div class="clear"></div>
         </section>
-        <section class="one-third column">
+        <section class="sixteen columns">
           <header>
-            <h4>Capybara</h4>
-            <p class="beneath-header">https://github.com/jnicklas/capybara</p>
+            <h4>HAML &amp; SASS</h4>
+            <p class="beneath-header">http://haml-lang.com | http://sass-lang.com</p>
           </header>
           <p>First off, this, coupled with the Selenium webdriver, is great way to get the feel of coding if you're not familiar with it. It is mostly used for integration testing (making sure all your separate modules work together), though running a standalone version of Capybara which does not depend upon a framework like Ruby on Rails is a great way to get associated with these 3 things:</p>
           <ul class="square">
@@ -213,16 +219,6 @@
           <p><a href="https://github.com/rpearce/BarCampCHS/tree/master/capybara-barcamp">Click here</a> for the GitHub repo.</p>
         </section>
         <div class="clear"></div>
-        <section class="one-third column">
-          <header>
-            <h4>RSpec</h4>
-            <p class="beneath-header">http://rspec.info/</p>
-            <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
-            <ul class="square">
-              <li><a href="http://www.ibm.com/developerworks/web/library/wa-rspec/">Behavior-driven testing with RSpec</a></li>
-              <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">Ruby on Rails 3 Testing with RSpec 2</a></li>
-            </ul>
-          </header>
         </section>
       </li>
 
@@ -238,10 +234,6 @@
     </ul>
     <div class="clear"></div>
   </footer>
-
-
-	<!-- JS
-	================================================== -->
 
 
 <!-- End Document
