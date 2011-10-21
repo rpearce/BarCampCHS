@@ -214,6 +214,7 @@
   li { line-height: 18px;}
   ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
+	li.inline { display: inline; }
 
 /* #Images
 ================================================== */
