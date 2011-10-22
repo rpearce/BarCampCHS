@@ -27,8 +27,8 @@
 
   <!-- JavaScript
   ================================================== -->
-	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="javascripts/tabs.js"></script>
+  <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+  <script src="javascripts/tabs.js"></script>
   <!-- include Cycle plugin -->
   <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
 
@@ -52,6 +52,7 @@
           <li><a href="#need-to-know">Need to Know</a></li>
           <li><a href="#in-browser-coding">In-browser Coding</a></li>
           <li><a href="#videos-and-tuts">Videos and Tuts</a></li>
+          <li><a href="#notes">Notes</a></li>
         </ul>
       </div>
     </div>
@@ -123,7 +124,7 @@
         <section class="two-thirds column">
           <header>
             <h4>Cucumber</h4>
-            <p class="beneath-header">http://cukes.info</p>
+            <p class="beneath-header"><a href='http://cukes.info' class='no-style-link'>http://cukes.info</a></p>
           </header>
           <p>Being able to write accurate, coherent stories for whatever you're working on is a must, if not for the next person who sees your code, then simply for yourself. Cucumber--being a form of integration testing--refines this practice and tests your code from a UI perspective.</p>
           <p><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">Click here</a> for a great Cucumber slideshare presentation.</p>
@@ -135,7 +136,7 @@
         <section class="one-third column">
           <header>
             <h4>Capybara</h4>
-            <p class="beneath-header">https://github.com/jnicklas/capybara</p>
+            <p class="beneath-header"><a href='https://github.com/jnicklas/capybara'>https://github.com/jnicklas/capybara</a></p>
           </header>
           <p>First off, this, coupled with the Selenium webdriver, is great way to get the feel of coding if you're not familiar with it. It is mostly used for integration testing (making sure all your separate modules work together), though running a standalone version of Capybara which does not depend upon a framework like Ruby on Rails is a great way to get associated with these 3 things:</p>
           <ul class="square">
@@ -157,7 +158,7 @@
         <section class="one-third column">
           <header>
             <h4>RSpec</h4>
-            <p class="beneath-header">http://rspec.info</p>
+            <p class="beneath-header"><a href='http://rspec.info'>http://rspec.info</a></p>
           </header>
           <p>RSpec is a fantastic tool that should be a significant part of any Rails developer's testing know-how. Since I cannot do it justice, I'll let these articles do the heavy lifting:</p>
           <ul class="square">
@@ -182,7 +183,7 @@
         <section class="sixteen columns">
           <header>
             <h4>HTML &amp; CSS</h4>
-            <p class="beneath-header">http://htmldog.com</p>
+            <p class="beneath-header"><a href='http://htmldog.com'>http://htmldog.com</a></p>
           </header>
           <p>In short, you will have to be able to structure elements and style them, no matter what sort of development/web-based job you have. Forget Dreamweaver and other drag and drop web design tools--you will not learn what you need to learn. Many tutorials would have beginners start from scratch, but I take a different approach: throw yourself in to boilerplate code, make changes, and see what happens.</p>
           <p>A few useful tools for beginners (assuming you understand a little syntax) and professionals alike are:</p>
@@ -201,12 +202,117 @@
         <section class="sixteen columns">
           <header>
             <h4>HAML &amp; SASS</h4>
-            <p class="beneath-header">http://haml-lang.com | http://sass-lang.com</p>
+            <p class="beneath-header"><a href='http://haml-lang.com'>http://haml-lang.com</a> | <a href='http://sass-lang.com'>http://sass-lang.com</a></p>
           </header>
           <p>Basically, HAML and SASS are (in our opinion) much more readable ways of writing HTML and CSS; HAML compiles to HTML, while SASS compiles to CSS.</p>
           <div class="clear"></div>
         </section>
       </li>
+
+
+
+      <li id="notes" class="hidden">
+        <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">Notes</h1> <h3 style="display:inline">'cause everybody needs some resources</h3>
+        </header>
+        <section class="sixteen columns">
+          <header>
+            <h4>Some resources for you</h4>
+            <p class="beneath-header">Good information</p>
+          </header>
+          <p>These are some of the sites and resources I used to get where I am currently.</p>
+        </section>
+        <section class="sixteen columns">
+          <h5>Getting Set Up</h5>
+          Text Editors:
+          <ul class="square">
+            <li><a href="http://macromates.com/">Textmate</a></li>
+            <li><a href="http://www.sublimetext.com/blog/articles/sublime-text-2-beta">Sublime 2</a></li>
+            <li><a href="https://github.com/calstad/emacs-starter-kit">Emacs</a></li>
+            <li><a href="http://linuxconfig.org/Vim_Tutorial">Vim</a></li>
+            <li><a href="http://www.e-texteditor.com/">E-Text Editor(Windows)</a></li>
+          </ul>
+          Source Control:
+          <ul class="square">
+            <li><a href="https://www.github.com">Git</a></li>
+            <li><a href="http://subversion.tigris.org/">SVN</a></li>
+          </ul>
+          Setting up your box:
+          <ul class="square">
+            <li><a href="http://www.jamesjohnson.me/">Great walkthrough for getting your system ready to rock.</a></li>
+            <li><a href="https://gist.github.com/606115">Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick</a></li>
+          </ul>
+          <h5>Testing</h5>
+          Capybara
+          <ul class="square">
+            <li><a href="https://github.com/jnicklas/capybara">Capybara</a></li>
+          </ul>
+          Cucumber
+          <ul class="square">
+            <li><a href="http://cukes.info/">http://cukes.info/</a></li>
+            <li><a href="http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email">http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email</a></li>
+          </ul>
+          RSpec
+          <ul class="square">
+            <li><a href="https://www.relishapp.com/rspec/docs/gettingstarted">https://www.relishapp.com/rspec/docs/gettingstarted</a></li>
+            <li><a href="http://jonathanhui.com/ruby-rails-3-testing-rspec-2">http://jonathanhui.com/ruby-rails-3-testing-rspec-2</a></li>
+          </ul>
+          <h5>Design Tools</h5>
+          <ul class="square">
+            <li><a href="http://twitter.github.com/bootstrap/">http://twitter.github.com/bootstrap/</a></li>
+            <li><a href="http://www.getskeleton.com/">http://www.getskeleton.com/</a></li>
+            <li><a href="http://hex2rgba.devoth.com/">http://hex2rgba.devoth.com/</a></li>
+            <li><a href="http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC">http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC</a></li>
+          </ul>
+          <h5>In-Browser Coding</h5>
+          <ul class="square">
+            <li><a href="http://tryruby.org/">TryRuby</a></li>
+            <li><a href="http://rubymonk.com/">CodeMonk</a></li>
+            <li><a href="http://www.codeschool.com/">CodeSchool</a></li>
+            <li><a href="http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0">CoderDeck (Plugin)</a></li>
+          </ul>
+          <h5>Need to Know Languages/Tools:</h5>
+          Ruby
+          <ul class="square">
+            <li><a href="http://www.ruby-lang.org/en/">http://www.ruby-lang.org/en/</a></li>
+          </ul>
+          HTML/CSS
+          <ul class="square">
+            <li><a href="http://htmldog.com/"></a>HTML Dog</li>
+          </ul>
+          HAML/SASS
+          <ul class="square">
+            <li><a href="http://haml-lang.com/">http://haml-lang.com/</a></li>
+            <li><a href="http://html2haml.heroku.com/">http://html2haml.heroku.com/</a></li>
+            <li><a href="http://sass-lang.com/">http://sass-lang.com/</a></li>
+            <li><a href="http://css2sass.heroku.com/">http://css2sass.heroku.com/</a></li>
+          </ul>
+          JQuery + JavaScript/CoffeeScript
+          <ul class="square">
+            <li><a href="http://www.howtocreate.co.uk/tutorials/javascript/introduction">http://www.howtocreate.co.uk/tutorials/javascript/introduction</a></li>
+            <li><a href="http://jashkenas.github.com/coffee-script/">http://jashkenas.github.com/coffee-script/</a></li>
+          </ul>
+          (Zen Learning Below)
+          Paths to Enlightenment:
+          <ul class="square">
+            <li><a href="http://rubykoans.com/">Ruby Koans</a></li>
+            <li><a href="https://github.com/sleepyfox/coffeescript-koans">CoffeeScript Koans</a></li>
+          </ul>
+          Screencasts, Tutorials && Resources:
+          <ul class="square">
+            <li><a href="http://teachmetocode.com/screencasts/">Teach Me To Code</a></li>
+            <li><a href="http://railscasts.com/">Railscasts</a></li>
+            <li><a href="http://peepcode.com/"></a>Peepcode (not free)</li>
+            <li><a href="http://www.codeschool.com"></a>Codeschool (mostly not free)</li>
+            <li><a href="http://ruby4kids.com/ruby4kids"></a>Ruby 4 Kids</li>
+            <li><a href="http://www.tlbox.com/">TLBox</a></li>
+          </ul>
+        </section>
+      </li>
+
+
+
+
 
     </ul>
   </div><!-- container -->
