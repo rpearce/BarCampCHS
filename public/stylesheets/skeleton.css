@@ -184,6 +184,7 @@
         .topbar { height: 30px; }
         .topbar li { display: none; }
         .slideshow { display: none; }
+        #mobile-nav { display: block; }
         .nav-list { margin-top: 5px; }
         ul.tabs { margin: 0; }
         ul.tabs li { width: 100px; padding: 0; text-align: center; }
