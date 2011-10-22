@@ -190,6 +190,7 @@
         ul.tabs li a { padding: 0; border-width: 1px 1px 0 0; }
         #slideshow-controls { display: none; }
         #slide-container { width: 320px; }
+        .logo a img{ width: 320px; }
 
     }
 
@@ -225,6 +226,8 @@
         /* Misc */
         .slideshow { width: 420px; }
         #slideshow-controls { right: 73px; }
+        .logo a img{ width: 420px; }
+
     }
 
 
