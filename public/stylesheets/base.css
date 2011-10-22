@@ -175,7 +175,8 @@
   p img { margin: 0; }
   p.lead { font-size: 21px; line-height: 27px; color: #777; }
   p.beneath-header { margin-top: -10px; color: #BFBFBF; }
-  p.beneath-header a { text-decoration:none; color: #BFBFBF; }
+  p.beneath-header a { text-decoration: none; color: #BFBFBF; }
+  p.beneath-header a:hover { text-decoration: underline; color: #404040; }
 
 
   em { font-style: italic; }

@@ -50,9 +50,9 @@
           <li><a href="#testing">Testing</a></li>
           <li><a href="#making-stuff-pretty">Making Stuff Pretty</a></li>
           <li><a href="#need-to-know">Need to Know</a></li>
-          <li><a href="#in-browser-coding">In-browser Coding</a></li>
-          <li><a href="#videos-and-tuts">Videos and Tuts</a></li>
-          <li><a href="#notes">Notes</a></li>
+          <li><a href="#enlightenment">Enlightenment</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </div>
     </div>
@@ -216,7 +216,7 @@
           <script src="https://gist.github.com/1305473.js?file=gistfile1.haml"></script>
         </section>
         <div class="clear"></div>
-        <section class="two-thirds column">
+        <section class="sixteen columns">
           <p>Some people prefer HTML to HAML. I say, "Whatever toots your flute." If you are more productive with HTML than HAML, that is your choice. However, there are also a large number of people who find HTML "DNA" or "Snakes" to be too much clutter--this is what HAML is for.</p>
           <p>Unfortunately, I will not cover SASS in this, but it is a great tool and SASS is to CSS as HAML is to HTML. <em>Savvy?</em></p>
           <p>Here are two fantastic links for taking your HTML or CSS and turning them in to HAML and SASS (definite time saver!):</p>
@@ -227,11 +227,88 @@
         </section>
       </li>
 
+      <!-- Need to Know
+      ====================== -->
+      <li class="hidden" id="need-to-know">
+        <header id="need-to-know-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">Need to Know</h1> <h3 style="display:inline">what you've gotta know to succeed</h3>
+        </header>
+        <section class="one-third column">
+          <header>
+            <h4>Ruby/Ruby on Rails</h4>
+            <p class="beneath-header"><a href="http://www.ruby-lang.org/en/">http://ruby-lang.org</a> | <a href="http://rubyonrails.org/">http://rubyonrails.org</a></p>
+          </header>
+          <p>Rails is a web application framework that is built upon the Ruby language. To become a valiant Railseteer, one must possess a decent understanding of Ruby; otherwise, it's akin to setting sail for the open seas with dreams of swashbuckling good times and a big hole in the bottom of your boat. It could work for Jack Sparrow--it will not work for you.</p>
+        </section>
+        <section class="one-third column">
+          <header>
+            <h4>HTML/CSS</h4>
+            <p class="beneath-header"><a href='http://htmldog.com'>http://htmldog.com</a></p>
+          <header>
+          <p>As mentioned under the "Making Stuff Pretty" link above, <strong>your design is as important to your app's vitality as salmon and hikers are to grizzly bears</strong>. Even if you think you know HTML/CSS, I cannot reiterate the importance of good design (visual and in your code) enough! There are also a number of very cool things going on with CSS3 transformations and whatnot (no link... just Google it).</p>
+        </section>
+        <section class="one-third column">
+          <header>
+            <h4>JQuery + JavaScript / CoffeeScript</h4>
+            <p class="beneath-header"><a href="http://jquery.com/">JQuery</a> | <a href="http://www.howtocreate.co.uk/tutorials/javascript/introduction">JavaScript</a> | <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a></p>
+          </header>
+          <p>In English, JQuery is a JavaScript library (a bunch of code bundled together for your pleasure) that allows you to manipulate a page (the Document Object Model, CSS, etc.), create animations, and much more.</p>
+          <p>Regarding how I learned JQuery: I learned to use it via CoffeeScript, which compiles down to JavaScript but looks a lot better in development. This really gave me the ability to focus less on syntax (since I didn't know JavaScript...) and more on understanding what I was doing and making cool things happen.</p>
+        </section>
+        <div class="clear"></div>
+      </li>
 
+      <!-- Enlightenment
+      ====================== -->
+      <li class="hidden" id="enlightenment">
+        <header id="enlightenment-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">Enlightenment</h1> <h3 style="display:inline">you will learn well, young grasshopper</h3>
+        </header>
+        <section class="sixteen columns">
+          <header>
+            <h4>In-browser coding</h4>
+            <p class="beneath-header">It's awesome</p>
+          </header>
+          <p>There are a few solid within-the-browser Ruby/Rails/HTML5/CSS/JQuery places out there:</p>
+          <ul class="square">
+            <li><a href="http://tryruby.org">TryRuby</a>: Recently refurbished by Greg Pollack and the CodeSchool guys, TryRuby is an attractive introduction for people interested in--you guessed it--trying Ruby.</li>
+            <li><a href="http://rubymonk.com">RubyMonk</a>: Still in it's alpha phase, RubyMonk looks like a promising stepping stone for people who are through with TryRuby but are not quite ready for the big leagues... yet.</li>
+            <li><a href="http://www.codeschool.com">CodeSchool</a>: These guys have been making great contributions to the development community by launching a site with video tutorials and interactive, in-browser coding challenges. Their courses range from the (free) Rails for Zombies, to (cost money) JQuery Air, HTML5/CSS3, Rails Best Practices, and others.</li>
+            <li><a href="http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0">CoderDeck</a>: If you are feeling adventurous and have made your own site, I recommend giving CoderDeck a try. This plugin allows you to embed your own in-browser coding in your site.</li>
+          </ul>
+        </section>
+        <div class="clear"></div>
+        <section class="sixteen columns">
+          <header>
+            <h4>Mountains are Merely Mountains</h4>
+            <p class="beneath-header"><a href="http://rubykoans.com">Ruby Koans</a> | <a href="https://github.com/sleepyfox/coffeescript-koans">CoffeeScript Koans</a></p>
+          </header>
+          <p>In my honest opinion, there is no better way to learn than to fail over and over and over again. Ruby Koans, as well as CoffeeScript Koans, present the user with failing tests that must be corrected in the code by the user. Once the user corrects one failing test and moves beyond it, (s)he is immediately met with another failing test. The user corrects this one, and repeats for the duration of the koans.</p>
+          <p>The Koans are no quick tasks (took me a few days). They require users to find ways to make the tests pass, and this often involves looking up the subject matter and doing a fair amount of learning. For every failing test there is, a "koan" is offered to the user as Zen motivation.</p>
+          <p>I recommend learning through the Koans while sitting on your back porch/deck, if you have one, on a weekend afternoon. Also, always remember: <strong>"When you lose, don't lose the lesson."</strong>
+        </section>
+        <div class="clear"></div>
+        <section class="sixteen columns">
+          <header>
+            <h4>Screencasts &amp; Tutorials</h4>
+          </header>
+          <p>Here are a bunch of links to some screencasts, tutorials, and whatnot:</p>
+          <ul class="square">
+            <li><a href="http://teachmetocode.com/screencasts/">Teach Me To Code</a></li>
+            <li><a href="http://railscasts.com/">Railscasts</a></li>
+            <li><a href="http://peepcode.com/">Peepcode</a> (not free)</li>
+            <li><a href="http://www.codeschool.com">Codeschool</a> (mostly not free)</li>
+            <li><a href="http://ruby4kids.com/ruby4kids">Ruby 4 Kids</a></li>
+            <li><a href="http://www.tlbox.com/">TLBox</a></li>
+          </ul>
+        </section>
+      </li>
 
-      <li id="notes" class="hidden">
-        <header id="testing-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
-          <h1 style="display:inline">Notes</h1> <h3 style="display:inline">'cause everybody needs some resources</h3>
+      <!-- Resources
+      ====================== -->
+      <li id="resources" class="hidden">
+        <header id="resources-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">Resources</h1> <h3 style="display:inline">'cause everybody needs some list action</h3>
         </header>
         <section class="sixteen columns">
           <header>
@@ -282,17 +359,36 @@
             <li><a href="http://hex2rgba.devoth.com/">http://hex2rgba.devoth.com/</a></li>
             <li><a href="http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC">http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC</a></li>
           </ul>
-          <h5>In-Browser Coding</h5>
+          <h5>Enlightenment</h5>
+          In-browser Coding
           <ul class="square">
             <li><a href="http://tryruby.org/">TryRuby</a></li>
             <li><a href="http://rubymonk.com/">CodeMonk</a></li>
             <li><a href="http://www.codeschool.com/">CodeSchool</a></li>
             <li><a href="http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0">CoderDeck (Plugin)</a></li>
           </ul>
+          Paths to Enlightenment:
+          <ul class="square">
+            <li><a href="http://rubykoans.com/">Ruby Koans</a></li>
+            <li><a href="https://github.com/sleepyfox/coffeescript-koans">CoffeeScript Koans</a></li>
+          </ul>
+          Screencasts &amp; Tutorials
+          <ul class="square">
+            <li><a href="http://teachmetocode.com/screencasts/">Teach Me To Code</a></li>
+            <li><a href="http://railscasts.com/">Railscasts</a></li>
+            <li><a href="http://peepcode.com/">Peepcode</a> (not free)</li>
+            <li><a href="http://www.codeschool.com">Codeschool</a> (mostly not free)</li>
+            <li><a href="http://ruby4kids.com/ruby4kids">Ruby 4 Kids</a></li>
+            <li><a href="http://www.tlbox.com/">TLBox</a></li>
+          </ul>
           <h5>Need to Know Languages/Tools:</h5>
           Ruby
           <ul class="square">
             <li><a href="http://www.ruby-lang.org/en/">http://www.ruby-lang.org/en/</a></li>
+          </ul>
+          Ruby on Rails
+          <ul class="square">
+            <li><a href="http://rubyonrails.org/">http://rubyonrails.org/</a></li>
           </ul>
           HTML/CSS
           <ul class="square">
@@ -310,28 +406,30 @@
             <li><a href="http://www.howtocreate.co.uk/tutorials/javascript/introduction">http://www.howtocreate.co.uk/tutorials/javascript/introduction</a></li>
             <li><a href="http://jashkenas.github.com/coffee-script/">http://jashkenas.github.com/coffee-script/</a></li>
           </ul>
-          (Zen Learning Below)
-          Paths to Enlightenment:
-          <ul class="square">
-            <li><a href="http://rubykoans.com/">Ruby Koans</a></li>
-            <li><a href="https://github.com/sleepyfox/coffeescript-koans">CoffeeScript Koans</a></li>
-            <li><a href="http://rubymonk.com/">CodeMonk</a></li>
-          </ul>
-          Screencasts, Tutorials && Resources:
-          <ul class="square">
-            <li><a href="http://teachmetocode.com/screencasts/">Teach Me To Code</a></li>
-            <li><a href="http://railscasts.com/">Railscasts</a></li>
-            <li><a href="http://peepcode.com/">Peepcode</a> (not free)</li>
-            <li><a href="http://www.codeschool.com">Codeschool</a> (mostly not free)</li>
-            <li><a href="http://ruby4kids.com/ruby4kids">Ruby 4 Kids</a></li>
-            <li><a href="http://www.tlbox.com/">TLBox</a></li>
-          </ul>
         </section>
       </li>
 
+      <!-- About
+      ====================== -->
+      <li class="hidden" id="about">
+        <header id="about-header" style="margin-bottom:17px;border-bottom:1px solid #ddd" class="sixteen columns">
+          <h1 style="display:inline">About the Author</h1> <h3 style="display:inline">a little quip</h3>
+        </header>
+        <section class="sixteen columns">
+          <header>
+            <h4>Pitch</h4>
+          </header>
+          <p><em>My name is Robert Pearce. I am 24 years old, work at Jack Russell Software, LLC., and  first started learning how to code 8-9 months ago. On the side, I am a local musician, tennis player, surfer, and world traveler.</em></p>
 
+          <p>Ask any professional who enjoys his or her job about the moment they were infected with a love for whatever it is that they do, and one will likely hear a story about discovery, passion, and an insatiable thirst for knowledge about whatever it is that they do. Many programmers, developers, designers, and the like can often point to such a specific event that struck a single, beautiful note within them and led them to the profession and joy that they experience in their lives and workplace today. A number of the aforementioned people likely discovered this passion early in life, studied their passions in school, and participated in their communities, all the while learning new tools and bettering themselves.</p>
 
+          <p>However, there also exists a significant percentage of newly aspiring developers of all ages who were not fortunate enough to be introduced to the joy of programming early in their lives and now, after having a taste of its fulfillment, do not have any place to begin.</p>
 
+          <p>Ruby on Rails, for all its surface ease of use and aesthetic coding value, is not just one tool that one can use to create web applications; in fact, it is a conglomeration of any number of separate tools that any aspiring developer can find intimidating and disheartening. In addition to this, there are myriad web sites, blog posts, and books that are dedicated to educating anyone interested in Rails. The average person who has only a cursory knowledge of programming may be able to create a custom blog via e-instructions (a.k.a. tutorials), but what do they really learn, and through what process can they, to steal the phrase, "refactor their wetware?" How can they get introduced to Rails without feeling lost in a snake-esque sea of @controllers, <% erb %>'s, and--as of Rails 3.1--CoffeeScripts? What tools act as effective stepping stones?</p>
+
+          <p>Nine months ago, I knew almost nothing about programming, developing, and designing. With the help of the fantastic people at Jack Russell Software, along with a large amount of  exploring, myself, I was able to advance from coding illiterate to full-time, paid employee in just a matter of months. I have a drive--no, I have a responsibility--to inspire future developers and try to give them access to the knowledge and tools they need to enter a field that has so many ways to accomplish tasks that it's almost impossible to get started.</p>
+        </section>
+      </li>
 
     </ul>
   </div><!-- container -->
