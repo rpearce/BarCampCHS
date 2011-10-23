@@ -4,6 +4,7 @@ http://railsneedtoknow.heroku.com/index.html
 To run the capybara-barcamp tests once in the /BarCampCHS folder,
 
 $ cd capybara-barcamp
+$ bundle install
 $ bundle exec rake
 
 ===============
