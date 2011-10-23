@@ -1,80 +1,14 @@
-=====
-Links
-=====
-
+Website:
 http://railsneedtoknow.heroku.com/index.html
 
-Getting Set Up:
-  Text Editors:
-    TextMate
-      http://macromates.com/
-    Sublime 2
-      http://www.sublimetext.com/blog/articles/sublime-text-2-beta
-    Emacs
-      https://github.com/calstad/emacs-starter-kit
-    Vim
-      http://linuxconfig.org/Vim_Tutorial
-    E-Text Editor(Windows)
-      http://www.e-texteditor.com/
-  Git:
-    https://www.github.com
-  Setting up your box:
-    http://www.jamesjohnson.me/ - Great walkthrough for getting your system ready to rock.
-    https://gist.github.com/606115 - Snow Leopard, Homebrew, Git, RVM, Ruby, Passenger, Apache, MySQL, Memcached and ImageMagick
+To run the capybara-barcamp tests once in the /BarCampCHS folder,
+<pre>
+  <code>
+    $ cd capybara-barcamp
+    $ bundle exec rake
+  </code>
+</pre>
 
-Testing:
-  Capybara
-    https://github.com/jnicklas/capybara
-  Cucumber
-    http://cukes.info/
-    http://www.slideshare.net/bmabey/writing-software-not-code-with-cucumber?utm_source=rubyweekly&utm_medium=email
-  RSpec
-    https://www.relishapp.com/rspec/docs/gettingstarted
-    http://jonathanhui.com/ruby-rails-3-testing-rspec-2
-
-
-Design Tools:
-  http://twitter.github.com/bootstrap/
-  http://www.getskeleton.com/
-  http://hex2rgba.devoth.com/
-  http://projects.korrelboom.com/gradient-generator/#top|%23EAF3DA|%23F5F8EC
-
-In-Browser coding:
-  TryRuby
-    http://tryruby.org/
-  CodeMonk
-    http://rubymonk.com/
-  CodeSchool
-    http://www.codeschool.com/
-  CoderDeck (Plugin)
-    http://cykod.github.com/CoderDeck/?utm_source=html5weekly&utm_medium=email#slide-0
-
-Need to Know Languages/Tools:
-  Ruby
-  HTML/CSS
-    http://htmldog.com/
-  HAML/SASS
-    http://haml-lang.com/
-    http://html2haml.heroku.com/
-    http://sass-lang.com/
-    http://css2sass.heroku.com/
-  JQuery + JavaScript/CoffeeScript
-    http://www.howtocreate.co.uk/tutorials/javascript/introduction
-    http://jashkenas.github.com/coffee-script/
-  (Zen Learning Below)
-  Paths to Enlightenment:
-    Ruby Koans
-      http://rubykoans.com/
-    CoffeeScript Koans
-      https://github.com/sleepyfox/coffeescript-koans
-
-Screencasts, Tutorials && Resources:
-  http://teachmetocode.com/screencasts/
-  http://railscasts.com/
-  http://peepcode.com/ (not free)
-  http://www.codeschool.com (mostly not free)
-  http://ruby4kids.com/ruby4kids
-  http://www.tlbox.com/
 
 ===============
 Personal Thanks
